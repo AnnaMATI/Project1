@@ -16,7 +16,7 @@ header{
     width: 100px;
     height: 100px;
     border-end-end-radius:50px 30px ;
-    box-shadow: dimgray;
+    box-shadow: rgb(235, 227, 227);
 }
 nav{
  margin-right: 250px;
@@ -95,6 +95,7 @@ font-style: italic;
   background-color: rgb(117, 110, 105);
   cursor:grab;
   transition: 0.3s;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
 }
 .leftcorner2 .box{
   display: flex;
@@ -110,7 +111,7 @@ font-style: italic;
   height: 70px;
   /* margin-right: 30px;  
   margin-bottom: 30px;   */
-  border: 2px solid red;
+  border: 2px solid rgb(184, 139, 139);
 }
 .leftcorner2  .box h3{
   font-weight: bold;
@@ -124,32 +125,46 @@ font-style: italic;
   text-align: center;
   display: inline-block;
   margin: 0px 10px 30px 20px;
-  filter: drop-shadow(0 -6mm 4mm rgb(139, 138, 139));
-
+  filter: drop-shadow(0 -6mm 4mm rgb(80, 77, 80));
+  border: none;
 }
 .container .box2 img{
   width: 80%;
   height: 200px;
   margin: 2px 10px 30px 20px;
-  border: none;  
+  border: none;
+
 }
+.container .box2 span{
+display:block;
+}
+.container .box2 input{
+  width: 40px;
+}
+
 .container .box2 h3{
 padding: 10px;
 }
 .container .box2 .buy{
-  background-color: #ee2727; /* Green */
+  background-color: #b69b9b; 
+  border-radius: 20px;
+  border-bottom: black;
   border: none;
   padding: 16px 32px;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 15px;
   margin: 4px 2px;
   cursor: pointer;
 }
-.container .box2 .buy:hover{
+.container .box2  .buy:hover{
   transform: translateY(-4px);
-  box-shadow: 0 10px 20px rgba(113, 97, 97, 0.2);
+  box-shadow: 0 10px 20px rgba(162, 88, 180, 0.2);
   width: 100px;
+}
+.container .box2 input{
+  border-radius: 15px;
+  color: rgb(95, 79, 109);
 }
 .iconb{
   display: inline-block;
@@ -335,7 +350,7 @@ span{
 .topcorner .grid-item img{
   /* display: grid;
   column-gap: 30px; */
-height: 100px;
+/* height: 100px;
  object-fit: cover;
  width: 100px;
 border-radius: 0.5rem;
@@ -347,7 +362,7 @@ display: block ! important;
 }
 .grid-item{
   display: flex; */
-}
+
 /* .topcorner .grid-item span{
   display: block 
-} */ */
+} */ 
