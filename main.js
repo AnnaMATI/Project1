@@ -15,26 +15,15 @@ Array.from(buy).forEach( function(el){
 let sum=0
 function clickbtn(action){
 if(action==0){
-    span.textContent= sum+= +input0.value
-   
-}
+    span.textContent= sum+= +input0.value}
 else if (action==1){
-    span.textContent= sum+= +input1.value
- 
-}
+    span.textContent= sum+= +input1.value}
 else if (action==2){
-    span.textContent= sum+= +input2.value
-  
-}
+    span.textContent= sum+= +input2.value}
 else if (action==3){
-    span.textContent= sum += +input3.value
-   
-}
+    span.textContent= sum += +input3.value}
 else if (action==4){
-    span.textContent= sum += +input4.value
-  
-}
-}
+    span.textContent= sum += +input4.value}}
 
 
 
